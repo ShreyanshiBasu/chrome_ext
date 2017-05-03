@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="angular.js"></script>
+
+</head>
+
+<body>
+
+<div id="Clockdiv">
+    <div class="time">
+        <span class="hours"></span>:<span class="minutes"></span>:<span class="seconds"></span>
+    </div>
+    <div class="date">
+        <span class="day"></span>
+        <span class="month"></span>
+    </div>
+</div>
+
+<iframe class="searchbar" src="https://duckduckgo.com/search.html?prefill=Look me up " style="overflow:hidden;margin:0;padding:0;width:40%;height:40px; box-shadow: none; border: 0 " frameborder="0"></iframe>
+
+<!--
+<input type="text" src="https://duckduckgo.com/search.html?prefill=Look me up ">
+<input type="submit">
+
+<div ng-controller="QuoteController">
+    {{quote}}
+</div>
+-->
+
+<ul id="curatedlinks">
+    <li><a href="https://www.theguardian.com/international">TheGuardian</a></li>
+    <li><a href="http://indianexpress.com/">IndianExpress</a></li>
+    <li><a href="https://medium.com/">Medium</a></li>
+    <li><a href="http://economictimes.indiatimes.com/">EconomicTimes</a></li>
+</ul>
+
+
+<style>
+    #searchbar > #search_button_homepage{
+        background: white;
+    }
+</style>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
